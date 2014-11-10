@@ -1,9 +1,26 @@
 .layout-default .page-content {
   @include outer-container;
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 
 .layout-default .site-footer {
   @include outer-container;
   padding: 0 1em
 }
+
+section {
+  padding: 1.5em 0;
+  &#profile {
+    img {
+      float: left;
+      margin-right: 1.5em;
+    }
+    p, ul {
+      overflow: hidden;
+    } 
+  }
+  div {
+    margin-bottom: 1.5em;
+  }
+}
+

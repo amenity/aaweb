@@ -1,0 +1,110 @@
+/* -----------------------------------------------------------------------
+//////custom CSS for farm2.0 in pictures/amenity/////
+----------------------------------------------------------------------- */
+
+body {
+	font-size: 70%;
+}
+
+h1 {
+	color: #668494;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	font-family: 'HelveticaNeue-Light', "'Helvetica Neue Light'", 'HelveticaNeue', "'Helvetica Neue'", Helvetica, Arial, sans-serif;
+	font-weight: 100 !important;
+	display: inline;
+}
+
+h2 {
+	display: inline;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	padding-left: 4px;
+	color: #83c3e2
+}
+
+h4 {
+	color: #424242;
+}
+
+a {
+	color: #5898be;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #83c3e2;
+}
+
+a.perm {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+a.perm:hover {
+	color: #83c3e2;
+}
+
+#footer {
+	color: #eee;
+	background-color: #668494;
+	text-align: right;
+}
+
+#footer a {
+	color: #eee;
+}
+
+#footer a:hover {
+	color: #83c3e2;
+}
+
+/* grid.css */
+
+hr {
+	background: #fff;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+/* forms.css */
+
+.hiddenCont {
+	display: none;
+	visibility: hidden;
+}
+
+.visibleCont {
+	display: ;
+	visibility: visible;
+	margin-top: -1px;
+	border-top: solid 2px white;
+	padding-bottom: 15px;
+	z-index: 10;
+	font-size: 12px;
+	color: #424242;
+	padding-left: 19px;
+}
+
+div#long.title {
+	padding-bottom: 1px;
+}
+
+#orphan {
+	padding-left: 19px;
+}
+
+div.title {
+	border-bottom: 1px solid #668494;
+	text-transform: uppercase;
+	color: #424242;
+	font-size: 14px;
+}
+
+div.flash {
+	margin-left: -36px;
+}
+
+#last {
+	border-bottom: none;
+}

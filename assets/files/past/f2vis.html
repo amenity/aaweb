@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Farm2.0:pictures</title>
+<link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="blueprint/f2pics.css" type="text/css">
+
+<!-- expand/collapse hidden divs -->
+<script language="JavaScript">
+function showHide(HID,IMG) {
+	if (document.getElementById(IMG).src.indexOf('expand') != -1) {
+		document.getElementById(IMG).src='f2pics/collapse.png';
+		document.getElementById(HID).className='visibleCont';
+	} else {
+		document.getElementById(IMG).src='f2pics/expand.png';
+		document.getElementById(HID).className='hiddenCont';
+	}
+}
+</script>
+</head>
+
+<body>
+<div class="container">
+<h1>thesis in pictures</h1><h2>(much more fun)</h2>
+<h4>Farm2.0 demonstrates an approach to manage user-generated geocontent pertaining to European protected designation of origin (PDO) food products. 
+Wordpress, a popular open-source publishing platform, supplies the framework for a geographic content management system, or GeoCMS, to promote PDO products in the Spanish province of 
+Valencia. The Wordpress platform is modified through a suite of plug-ins and customizations to create an extensible application that could be easily deployed in other regions and administrated 
+cooperatively by distributed regulatory councils. Content, either regional recipes or map locations for vendors and farms, is available for syndication as a GeoRSS feed and aggregated with outside 
+feeds in a dynamic web map.</h4>
+<hr /> 
+
+<!--begin pics -->
+<div class="column span-24">
+<div class="title">
+<img id="image1" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden','image1');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden','image1');">site blueprint</span>
+</div>
+<div id="divHidden" class="hiddenCont">
+<img src="f2pics/f2blueprint.png" alt="blueprint" style="display: block; width: 900px;">
+<br/><a class="perm" href="/f2vis?showDiv=divHidden&useImage=image1">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image2" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden2','image2');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden2','image2');">controlled vocabulary</span>
+<br clear="all">
+</div>
+<div id="divHidden2" class="hiddenCont">
+<img src="f2pics/f2control_vocab.png" alt="controlled vocabulary" style="display: block; width: 900px;"><br/>
+<a class="perm" href="/f2vis?showDiv=divHidden2&useImage=image2">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image3" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden3','image3');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden3','image3');">system overview</span>
+<br clear="all">
+</div>
+<div id="divHidden3" class="hiddenCont">
+<img src="f2pics/f2system_overview.png" alt="system overview" style="display: block; width: 600px;"><br/>
+<a class="perm" href="/f2vis?showDiv=divHidden3&useImage=image3">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image4" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden4','image4');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden4','image4');">styles</span>
+<br clear="all">
+</div>
+<div id="divHidden4" class="hiddenCont">
+<img src="f2pics/f2styles.png" alt="styles" style="display: block; width: 900px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden4&useImage=image4">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image5" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden5','image5');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden5','image5');">theme use</span>
+<br clear="all">
+</div>
+<div id="divHidden5" class="hiddenCont">
+<img src="f2pics/f2themes.png" alt="themes" style="display: block; width: 600px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden5&useImage=image5">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image6" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden6','image6');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden6','image6');">map symbols</span>
+<br clear="all">
+</div>
+<div id="divHidden6" class="hiddenCont">
+<img src="f2pics/f2icons.png" alt="icons" style="display: block; width: 780px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden6&useImage=image6">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title" id="long">
+<img id="image7" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden7','image7');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden7','image7');">Flickr geofeed overlay</span>
+<br clear="all">
+</div>
+<div id="divHidden7" class="hiddenCont">
+The overlay can be toggled on and off through the buttons to the upper left of the map window. One button brings up photos tagged <i>comida</i> (food), the other displays photos tagged <i>cosecha</i> (harvest), <i>granja</i> (farm), or <i>naturaleza</i> (nature).
+<img src="f2pics/f2flickr_overlay.png" alt="Flickr geofeed overlay" style="display: block; width: 900px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden7&useImage=image7">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image8" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden8','image8');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden8','image8');">unfiltered Flickr geofeed overlay</span>
+<br clear="all">
+</div>
+<div id="divHidden8" class="hiddenCont">
+Without tag filtering, all geotagged photos from the Valencian Community will be aggregated by the map. This includes a range of subjects... 
+<img src="f2pics/f2flickr_perils.png" alt="Flickr geofeed perils" style="display: block; width: 900px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden8&useImage=image8">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image9" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden9','image9');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden9','image9');">map of all posts</span>
+<br clear="all">
+</div>
+<div id="divHidden9" class="hiddenCont">
+The map implements an interactive legend and address search. Both are collapsible for full-width map browsing.  
+<img src="f2pics/f2map.png" alt="map" style="display: block; width: 900px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden9&useImage=image9">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image10" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden10','image10');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden10','image10');">maps in posts</span>
+<br clear="all">
+</div>
+<div id="divHidden10" class="hiddenCont">
+Maps are also placed in post template. Clicking on the <a href="http://www.geotagicons.com/">geotag icon</a> takes the user to the map of all posts, centered on the post they came from.  
+<img src="f2pics/f2post.png" alt="post map" style="display: block; width: 876px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden10&useImage=image10">permalink</a>
+<br clear="all">
+</div>
+
+<div class="title">
+<img id="image11" border="0" src="f2pics/expand.png" 
+valign="ABSBOTTOM" onClick="showHide('divHidden11','image11');" 
+style="cursor:pointer;">&nbsp;
+<span onClick="showHide('divHidden11','image11');">geotagging UI</span>
+<br clear="all">
+</div>
+<div id="divHidden11" class="hiddenCont">
+Users geotag content as they enter content throguh a <a href="http://wordpress.org/extend/plugins/tdo-mini-forms/">TDO Mini Form</a>. The form includes a <a href="http://wordpress.org/extend/plugins/geo-mashup/">GeoMashup</a> widget for recording coordinate attributes for the post.  
+<img src="f2pics/f2geotag.png" alt="geotag" style="display: block; width: 437px;"><br/>
+<br/><a class="perm" href="/f2vis?showDiv=divHidden11&useImage=image11">permalink</a>
+<br clear="all">
+</div>
+<br/>
+</div>
+
+
+<hr />
+<div id="footer"> ///<a href="http://tinyurl.com/634zxk">Amenity Applewhite</a>/<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0</a>////&nbsp&nbsp</div>
+</div>
+
+<!-- linking URL -->
+<script type='text/javascript'>
+  var target_div = null;
+  var target_image = null;
+  var query_string = window.location.search.substring(1);
+  var query_params = query_string.split('&');
+  for(var i=0; i<query_params.length; i++) {
+    if(query_params[i].split('=')[0] == 'showDiv') {
+    	target_div = query_params[i].split('=')[1];
+    }
+    if(query_params[i].split('=')[0] == 'useImage') {
+    	target_image = query_params[i].split('=')[1];
+    }
+  }
+  if(target_div && target_image){
+  	showHide(target_div, target_image);
+  }
+</script>
+
+</body>
+</html>

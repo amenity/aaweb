@@ -1,0 +1,112 @@
+
+/* -----------------------------------------------------------------------
+//////custom CSS for archives/amenity/////
+----------------------------------------------------------------------- */
+
+
+body {
+	font-size: 70%;
+}
+
+h1 {
+	color: #e66;
+	margin-bottom: 0.2em;
+	font-family: 'HelveticaNeue-Light', "'Helvetica Neue Light'", 'HelveticaNeue', "'Helvetica Neue'", Helvetica, Arial, sans-serif;
+	font-weight: 100 !important;
+}
+
+a {
+	color: #877;
+	text-decoration: none;
+}
+
+a.perm {
+	color: #fbb;
+	text-indent: 19px;
+}
+
+#footer {
+	color: #eee;
+	background-color: #877;
+	text-align: right;
+}
+
+#footer a{
+	color: #eee;
+	hover: #856 !important;
+}
+
+#footer a:hover{
+	color: #e66;
+}
+
+/* grid.css */
+
+hr {
+	background: #fbb;
+	color: #fbb
+}
+
+/* forms.css */
+
+.hiddenCont {
+	display: none;
+	visibility: hidden;
+}
+
+.visibleCont {
+	display: ;
+	visibility: visible;
+	margin-top: -1px;
+	border-top: solid 2px white;
+	padding-bottom: 15px;
+	z-index: 10;
+}
+
+div#long.title {
+	padding-bottom: 1px;
+}
+
+img.make {
+	margin: 20px 50px 20px 0; 
+	}
+	
+img.makesm {
+	margin: 0;
+	padding-bottom: 100px;
+	}	
+
+h6 {
+	font-weight: normal;
+	text-indent: 19px;
+	color: #EE4949;
+}
+
+#orphan {
+	padding-left: 19px;
+}
+
+div.title {
+	border-bottom: 1px solid #fbb;
+	text-transform: uppercase;
+}
+
+div.flash {
+	margin-left: -36px;
+}
+
+#last {
+	border-bottom: none;
+}
+
+ul {
+	list-style: none;
+	}
+
+li {
+	margin-bottom: 5px;
+	}
+
+.pink {
+	color: #EE4949;
+	}
