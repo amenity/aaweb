@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* All over it. (Global) */
+html,button,input,select,textarea,#typography p.font  {
+	color: #000;
+}
+
+@font-face {
+	font-family: 'DINLight';
+	src: url('../fonts/DINOT-Light.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-Light.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
+
+@font-face {
+	font-family: 'DINLightItalic';
+	src: url('../fonts/DINOT-LightItalic.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-LightItalic.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-LightItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
+	
+@font-face {	
+	font-family: 'DINMedium';
+	src: url('../fonts/DINOT-Medium.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-Medium.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
+
+@font-face {	
+	font-family: 'DINMediumItalic';
+	src: url('../fonts/DINOT-MediumItalic.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-MediumItalic.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-MediumItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-MediumItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}	
+
+@font-face {	
+	font-family: 'DINRegular';
+	src: url('../fonts/DINOT-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-Regular.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-Regular.svg#svgDINOT-Regular') format('svg'); /* Legacy iOS */
+	}
+
+@font-face {	
+	font-family: 'DINRegularItalic';
+	src: url('../fonts/DINOT-RegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/DINOT-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/DINOT-RegularItalic.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/DINOT-RegularItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/DINOT-RegularItalic.svg#svgDINOT-RegularItalic') format('svg'); /* Legacy iOS */
+	}
+
+
+
+body {
+	width: 100%;
+	margin: 0 0 20px;
+	font: small-caps 100 18px Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+/* Up top! (Header) */
+
+header h2 {
+	margin: 0;
+	padding: 10px;
+}
+
+header h4,header p {
+	margin: 5px 0 0;
+}
+
+header div {
+	margin: 2%;
+}
+
+.inverted {
+	background-color: #808080;
+	overflow: hidden;
+	padding:10px;
+}
+
+/* Logos */
+ul.logos {
+  	list-style-type: none;
+}
+
+.logos li {
+	display: block;
+	float: left;
+	margin-right: 40px;
+}
+
+/* Your Body is a Wonderland (Body) */
+#wrapper {
+	clear: both;
+	overflow: auto;
+	padding: 50px 40px;
+}
+
+#elements,#words {
+	width: 47%;
+}
+
+/* The colors, Duke, the colors! (#Colors) */
+.colors {
+	clear: both;
+}
+
+.square {
+	float: left;
+	height: 60px;
+	width: 60px;
+	margin: 0 15px 10px 0;
+	padding: 5px;
+}
+
+#square-one,#square-two,#square-three,#square-four,#square-five,#square-six,#square-seven,#square-eight, #square-nine{
+	height: 100%;
+	width: 100%;
+}
+
+#square-two {
+	background: #808080;
+}
+
+#square-three {
+	background: #b5b5b5;
+}
+
+#square-one {
+	background: #000;
+}
+
+#square-four {
+	background: #e0e0e0;
+}
+
+#square-five {
+	background: #2bbfbd;
+}
+
+#square-six {
+	background: #ee5744;
+}
+
+#square-seven {
+	background: #75d17c;
+}
+
+#square-eight {
+	background: #f29b30;
+}
+
+#square-nine {
+	background: #7090c2;
+}
+
+/* The Easy Button(s) (#Buttons) */
+#buttons, #centers {
+	clear: both;
+	padding-top: 20px;
+}
+
+#buttons a, #buttons h4 {
+	background-color: #f29b30;
+		font-family: DINRegular, verdana, sans-serif;
+
+	color: #FFF;
+	float: left;
+	text-decoration: none;
+	margin: 0 10px 10px 0;
+	padding: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#buttons a:hover {
+	background-color:rgba(245,124,32,0.85);
+}
+
+/* Others */
+.center{
+	background-color: #808080;
+	float: left; margin: 0 10px 10px 0;
+}
+
+/* Gosling-Approved Typography (#Typography) */
+#typography h1,#typography h2, #typography h5, #typography .caption {
+	font-family: DINMedium, verdana, sans-serif;
+	text-transform: capitalize;
+	font-variant: normal;
+}
+#typography h3,#typography h4, #typography .calltoaction {
+	font-family: DINRegular, verdana, sans-serif;
+	text-transform: capitalize;
+	font-variant: normal;
+}
+#typography h1{	
+	font-size: 32px;
+	color: #f29b30;
+}
+
+#typography h2{	
+	font-size: 24px;
+	color: #f29b30;
+}
+
+#typography h3 {
+	font-size: 18px;
+	color: #f29b30;
+}
+
+
+
+#typography p {
+	font: 13px/1.5em normal "Courier New", "Courier", serif;
+}
+
+#typography a {
+	color: #808080;
+}
+
+#typography a:hover {
+	color: #f29b30;
+}
+
+#typography blockquote p {
+	display: inline;
+	font-family: DINLightItalic, verdana, sans-serif;
+	font-size: 24px;	
+	line-height: 1.5em;
+	border-bottom: 2px solid #f29b30;
+}
+
+#typography .caption {
+	color: #f29b30;
+}
+
+#typography .calltoaction {
+	text-transform: none;
+	font-size: 18px;
+	width: 140px;
+	border-top: 1px solid #b5b5b5;
+	border-bottom: 1px solid #b5b5b5;
+	padding: 8px 0 10px;
+}
+
+#typography .calltoaction a {
+	text-decoration: none;
+}
+.font {
+	color: gray;
+	font-size: 12px;
+	margin: 0;
+}
+
+/* Down low! (Footer) */
+footer {
+	clear: both;
+	color: gray;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 40px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer .alignleft p {
+	font-style: italic;
+}
+
+footer .alignright p {
+	font-weight: 700;
+}
+
+/* Make it look good on your new-fangled Palm Pilot! (Media Queries) */
+ 
+@media (max-width: 600px) {
+	#elements, #words {
+		width: 100%;
+	}
+	
+	.colors, #textures, #buttons {
+		padding-top: 10px;
+	}
+	
+	#typography {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	header h1, header h2, header h4, header p {
+		text-align: center;
+	}
+	
+	#logos{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding: 10px;
+	}
+}
+
+
+
+@media print {
+	* {
+		-webkit-print-color-adjust: exact;
+		overflow: hidden;
+		box-shadow: none !important;
+	}
+	
+	.logo {
+		overflow: visible;
+	}	
+	
+	.square,.bigsquare {
+		height: 40px;
+		width: 40px;
+	}
+	
+	.colors, #textures, #buttons {
+		padding-top: 5px;
+	}
+	
+	footer {
+		display: none;
+	}
+}

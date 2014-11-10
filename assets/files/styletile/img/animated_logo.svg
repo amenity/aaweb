@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 134 53" xml:space="preserve">
+	<!-- U in light grey. -->
+	<polygon id="U" style="stroke-width: 0px; stroke: #000000; fill: #b5b5b5; " points="0,5	9,5	9,31	27,31	27,5	36,5	36,40	0,40" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30');
+	evt.target.parentNode.getElementById('iUT').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill:rgb(187,187,190)');
+	evt.target.parentNode.getElementById('iUT').setAttribute('style', 'fill: #808080;stroke-width:0;');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="0.5s" repeatCount="0"></animate>
+	</polygon>
+	
+	<!-- T in light grey. -->
+	<polygon id="T" style="stroke-width: 0px; stroke: #000000; fill: #b5b5b5; " points="27,13	62,13	62,22	49,22	49,48	40,48	40,22	27,22" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30');
+	evt.target.parentNode.getElementById('iUT').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+	evt.target.parentNode.getElementById('iTS').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill:rgb(187,187,190)');
+	evt.target.parentNode.getElementById('iUT').setAttribute('style', 'fill: #808080;stroke-width:0;');
+	evt.target.parentNode.getElementById('iTS').setAttribute('style', 'fill: #808080;stroke-width:0;');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1s" repeatCount="0"></animate>
+	</polygon>
+	
+	<!-- S in light grey. -->
+	<polygon id="S" style="stroke-width: 0px; stroke: #000000; fill: #b5b5b5; " points="53,0	89,0	89,9	62,9	62,13	89,13	89,35	53,35	
+	53,26	80,26	80,22	53,22" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30');
+	evt.target.parentNode.getElementById('iSo').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+	evt.target.parentNode.getElementById('iTS').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill:rgb(187,187,190)');
+	evt.target.parentNode.getElementById('iSo').setAttribute('style', 'fill: #808080;stroke-width:0;');
+	evt.target.parentNode.getElementById('iTS').setAttribute('style', 'fill: #808080;stroke-width:0;');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1.5s" repeatCount="0"></animate>
+	</polygon>
+	
+	<!-- o in light grey. -->
+	<polygon id="o" style="stroke-width: 0px; stroke: #000000; fill: #b5b5b5; " points="80,26	107,26	107,53	80,53" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30');
+	evt.target.parentNode.getElementById('iSo').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+	evt.target.parentNode.getElementById('ioA').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill:rgb(187,187,190)');
+	evt.target.parentNode.getElementById('iSo').setAttribute('style', 'fill: #808080;stroke-width:0;');
+	evt.target.parentNode.getElementById('ioA').setAttribute('style', 'fill: #808080;stroke-width:0;');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="2s" repeatCount="0"></animate>
+	</polygon>
+	<polygon id="o2" style="fill:#fff;stroke-width:0;" points="89,35	98,35	98,44	89,44"></polygon>
+	
+	<!-- A in light grey. -->
+	<polygon id="A" style="fill:rgb(187,187,190)" points="98,35	98,0	134,0	134,35	125,35	125,26	107,26	107,35" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30');
+	evt.target.parentNode.getElementById('ioA').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill:rgb(187,187,190)');
+	evt.target.parentNode.getElementById('ioA').setAttribute('style', 'fill: #808080;stroke-width:0;');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="2.5s" repeatCount="0"></animate>
+	</polygon>
+	<polygon id="A2" style="fill:#fff;stroke-width:0;" points="107,9	125,9	125,17	107,17"></polygon>
+	
+<!-- Dark Grey rectangles for each intersection -->
+	
+	<!-- UT intersection in dark grey. -->
+	<rect id="iUT" x="27" y="13" width="9" height="9" style="stroke-width: 0px; stroke: #000000; fill: #808080; " onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0');
+		evt.target.parentNode.getElementById('Uc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none')" onmouseout="evt.target.setAttribute('style','fill: #808080;stroke-width:0');
+		evt.target.parentNode.getElementById('Uc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');">
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="0.5s" repeatCount="0"></animate>
+	<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1s" repeatCount="0"></animate>
+	</rect>
+	<!-- TS intersection in dark grey. -->
+	<rect id="iTS" x="53" y="13" width="9" height="9" style="stroke-width: 0px; stroke: #000000; fill: #808080; " onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','fill: #808080;stroke-width:0');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');">
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1.5s" repeatCount="0"></animate>
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1s" repeatCount="0"></animate>
+		</rect>
+	<!-- So intersection in dark grey. -->
+	<rect id="iSo" x="80" y="26" width="9" height="9" style="stroke-width: 0px; stroke: #000000; fill: #808080; " onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');" onmouseout="evt.target.setAttribute('style','fill: #808080;stroke-width:0');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');">
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="1.5s" repeatCount="0"></animate>
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="2s" repeatCount="0"></animate>
+		</rect>
+	<!-- oA intersection in dark grey. -->
+	<rect id="ioA" x="98" y="26" width="9" height="9" style="fill: #808080;stroke-width:0;" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('Ac').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');" onmouseout="evt.target.setAttribute('style','fill: #808080;stroke-width:0');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('Ac').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');">
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="2.5s" repeatCount="0"></animate>
+		<animate attributeType="CSS" attributeName="fill" from="rgb(187,187,190)" to="#f29b30" dur="0.5s" begin="2s" repeatCount="0"></animate>
+		</rect>
+	
+<!-- White Centerlines for each letter -->
+
+	<!-- U centerline -->
+		<polyline id="Uc" style="stroke:#fff;stroke-width:1;fill:none" points="4.5,5	4.5,35.5	31.5,35.5	31.5,5" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');"></polyline>
+		
+	<!-- T centerline -->
+		<polyline id="Tc" style="stroke:#fff;stroke-width:1;fill:none" points="27,17.5	62,17.5	44.5,17.5	44.5,48" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none')" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></polyline>
+
+<!-- S centerline -->
+		<polyline id="Sc" style="stroke:#fff;stroke-width:1;fill:none" points="89,4.5	57.5,4.5	57.5,17.5	84.5,17.5	84.5,30.5	53,30.5" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none')" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></polyline>
+
+<!-- o centerline -->
+		<rect id="oc" x="84.5" y="30.5" width="18" height="18" style="stroke:#fff;stroke-width:1;fill:none" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');"></rect>
+		
+<!-- A centerline -->
+		<polyline id="Ac" style="stroke:#fff;stroke-width:1;fill:none" points="102.5,35	102.5,4.5	129.5,4.5	129.5,35	129.5,21.5	102.5,21.5" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></polyline>
+		
+<!-- UT centerline overlap-->
+		<rect id="UTcO" x="31" y="17" width="1" height="1" style="fill:#fff;stroke-width:0;" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('Uc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none')" onmouseout="evt.target.setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('Uc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></rect>
+<!-- TS centerline overlap-->
+		<polyline id="TScO" style="stroke:#fff;stroke-width:1;fill:none" points="57,17.5	62,17.5" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('Tc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('UTcO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');"></polyline>
+<!-- So centerline overlap-->
+		<rect id="SocO" x="84" y="30" width="1" height="1" style="fill:#fff;stroke-width:0;" onmouseover="evt.target.setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');" onmouseout="evt.target.setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('Sc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('TScO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></rect>
+<!-- oA centerline overlap-->
+		<polyline id="oAcO" style="stroke:#fff;stroke-width:1;fill:none" points="102.5,35 102.5,30" onmouseover="evt.target.setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style', 'fill:#f29b30;stroke-width:0;');
+		evt.target.parentNode.getElementById('Ac').setAttribute('style', 'stroke:#f29b30;stroke-width:1;fill:none');" onmouseout="evt.target.setAttribute('style','stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oc').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('oAcO').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');
+		evt.target.parentNode.getElementById('SocO').setAttribute('style','fill:#fff;stroke-width:0;');
+		evt.target.parentNode.getElementById('Ac').setAttribute('style', 'stroke:#fff;stroke-width:1;fill:none');"></polyline>
+
+</svg>

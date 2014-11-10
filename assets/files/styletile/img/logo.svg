@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 134 53" xml:space="preserve">
+<style type="text/css">
+#letter polygon, 
+#letter path {
+	opacity: .29;
+}
+
+#line polygon,
+#line path {
+	fill:white;	
+}
+</style>
+<g id="letter">
+	<polygon class="U" points="0,5 9,5 9,31 27,31 27,5 36,5 36,40 0,40"></polygon>
+	<polygon class="T"  points="27,13 62,13 62,22 49,22 49,48 40,48 40,22 27,22"></polygon>
+	<polygon class="S"  points="53,0 89,0 89,9 62,9 62,13 89,13 89,35 53,35 53,26 80,26 80,22 53,22"></polygon>
+    <path class="O"  d="M80,26v27h27V26H80z M98,44h-9v-9h9V44z"/>
+	<path class="A"  d="M98,0v35h9v-9h18v9h9V0H98z M125,17h-18V9h18V17z"/>
+</g>
+<g id="line">
+	<polygon class="U"  points="32,36 4,36 4,5 5,5 5,35 31,35 31,5 32,5"/>
+	<polygon class="T"  points="45,48 44,48 44,18 27,18 27,17 62,17 62,18 45,18"/>
+	<polygon class="S"  points="85,31 53,31 53,30 84,30 84,18 57,18 57,4 89,4 89,5 58,5 58,17 85,17"/>
+	<path class="O"  d="M103,49H84V30h19V49z M85,48h17V31H85V48z"/>
+	<path class="A"  d="M130,35h-1V22h-26v13h-1V4h28V35z M103,21h26V5h-26V21z"/>
+</g>
+</svg>

@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* All over it. (Global) */
+html,button,input,select,textarea,#typography p.font  {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: lowercase;
+}
+
+@font-face{font-family:DINWebRegular;src:url(../fonts/DINWeb.eot);}
+@font-face{font-family:DINWebRegular;src:url(../fonts/DINWeb.woff)format("woff");}
+@font-face{font-family:DINWebBold;src:url(../fonts/DINWeb-Bold.eot);}
+@font-face{font-family:DINWebBold;src:url(../fonts/DINWeb-Bold.woff)format("woff");}
+@font-face{font-family:DINWebItalic;src:url(../fonts/DINWeb-Ita.eot);}
+@font-face{font-family:DINWebItalic;src:url(../fonts/DINWeb-Ita.woff)format("woff");}
+@font-face{font-family:DINWebBoldItalic;src:url(../fonts/DINWeb-BoldIta.eot);}
+@font-face{font-family:DINWebBoldItalic;src:url(../fonts/DINWeb-BoldIta.woff)format("woff");}
+
+
+body {
+	width: 100%;
+	margin: 0 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+/* Up top! (Header) */
+
+header h2 {
+	margin: 0;
+	padding: 10px;
+}
+
+header h4,header p {
+	margin: 5px 0 0;
+}
+
+#logos li {
+	list-style: none;
+	display: inline;
+	float: left;
+}
+
+#logos h5{
+	margin: -10px 0 0 30px;
+}
+
+/* Your Body is a Wonderland (Body) */
+#wrapper {
+	clear: both;
+	overflow: auto;
+	padding: 50px 40px;
+}
+
+#elements,#words {
+	width: 47%;
+}
+
+/* The colors, Duke, the colors! (#Colors) */
+.colors {
+	clear: both;
+}
+
+.square {
+	float: left;
+	height: 60px;
+	width: 60px;
+	margin: 0 15px 10px 0;
+	padding: 5px;
+}
+
+#square-one,#square-two,#square-three,#square-four,#square-five,#square-six,#square-seven,#square-eight{
+	height: 100%;
+	width: 100%;
+}
+
+#square-two {
+	background: #807f83;
+}
+
+#square-three {
+	background: #c0bfc1;
+}
+
+#square-one {
+	background: #000;
+}
+
+#square-four {
+	background: #e0e0e0;
+}
+
+#square-five {
+	background: #2bbfbd;
+}
+
+#square-six {
+	background: #ee5744;
+}
+
+#square-seven {
+	background: #75d17c;
+}
+
+#square-eight {
+	background: #f47b20;
+}
+
+#square-nine {
+	background: #7090c2;
+}
+
+
+/* The Easy Button(s) (#Buttons) */
+#buttons, #centers {
+	clear: both;
+	padding-top: 20px;
+}
+
+#buttons a, #buttons h4 {
+	background-color: #f47b20;
+		font-family: DINWebRegular, verdana, sans-serif;
+
+	color: #FFF;
+	float: left;
+	text-decoration: none;
+	margin: 0 10px 10px 0;
+	padding: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#buttons a:hover {
+	background-color:rgba(245,124,32,0.85);
+}
+
+/* Others */
+.center{
+	background-color: #807f83;
+	float: left; margin: 0 10px 10px 0;
+}
+
+/* Gosling-Approved Typography (#Typography) */
+#typography h1,#typography h2, #typography .caption {
+	font-family: DINWebBold, verdana, sans-serif;
+	text-transform: capitalize;
+}
+#typography h3,#typography h4, #typography .calltoaction {
+	font-family: DINWebRegular, verdana, sans-serif;
+	text-transform: capitalize;
+}
+#typography h1{	
+	font-size: 32px;
+	color: #2bbfbd;
+}
+
+#typography h2{	
+	font-size: 24px;
+	color: #75d17c;
+}
+
+#typography h3 {
+	font-size: 18px;
+	color: #2bbfbd;
+}
+
+#typography h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #75d17c;
+}
+
+#typography p {
+	font-family: Courier, Courier New, serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	text-transform: capitalize;
+}
+
+#typography a {
+	color: #807f83;
+}
+
+#typography a:hover {
+	color: #f47b20;
+}
+
+#typography blockquote p {
+	display: inline;
+	font-family: DINWebItalic, verdana, sans-serif;
+	font-size: 24px;	
+	line-height: 1.5em;
+	border-bottom: 2px solid #2bbfbd;
+}
+
+#typography .caption {
+	color: white;
+	background-color: #75d17c;
+	padding: 6px;
+	text-transform: none;
+}
+
+#typography .calltoaction {
+	text-transform: none;
+	font-size: 18px;
+	width: 140px;
+	border-top: 1px solid #c0bfc1;
+	border-bottom: 1px solid #c0bfc1;
+}
+
+#typography .calltoaction a {
+	text-decoration: none;
+}
+.font {
+	color: gray;
+	font-size: 12px;
+	margin: 0;
+}
+
+/* Down low! (Footer) */
+footer {
+	clear: both;
+	color: gray;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 40px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer .alignleft p {
+	font-style: italic;
+}
+
+footer .alignright p {
+	font-weight: 700;
+}
+
+/* Make it look good on your new-fangled Palm Pilot! (Media Queries) */
+ 
+@media (max-width: 600px) {
+	#elements, #words {
+		width: 100%;
+	}
+	
+	.colors, #textures, #buttons {
+		padding-top: 10px;
+	}
+	
+	#typography {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	header h1, header h2, header h4, header p {
+		text-align: center;
+	}
+	
+	#logos{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding: 10px;
+	}
+}
+
+
+
+@media print {
+	* {
+		-webkit-print-color-adjust: exact;
+		overflow: hidden;
+		box-shadow: none !important;
+	}
+	
+	.logo {
+		overflow: visible;
+	}	
+	
+	.square,.bigsquare {
+		height: 40px;
+		width: 40px;
+	}
+	
+	.colors, #textures, #buttons {
+		padding-top: 5px;
+	}
+	
+	footer {
+		display: none;
+	}
+}
