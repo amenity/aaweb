@@ -43,7 +43,10 @@ ul.bullish {
       font-size: .7em;
       margin-left: -.7em; }
 
-section ul li:last-child {
+section ul {
+  margin-left: 3em; }
+
+#experience li:last-child {
   font-style: italic; }
 
 /*# sourceMappingURL=typography.css.map */
